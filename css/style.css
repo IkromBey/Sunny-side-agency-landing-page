@@ -94,7 +94,7 @@ header {
   letter-spacing: 0.5rem;
 }
 
-/* COLUMN CARD */
+
 /* COLUMN CARD */
 .column-card {
   max-width: 100%;
@@ -111,7 +111,6 @@ header {
 }
 
 .section {
-  /* margin: 0 auto; */
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -179,7 +178,7 @@ header {
 
 
 
-
+/* TETIMONIAL */
 
 .testimonial {
   margin: 0 auto;
@@ -196,19 +195,18 @@ header {
   text-align: center;
 }
 .testimonial-flex__container {
+  padding-left: 100px;
+  padding-right: 100px;
   text-align: center;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
-  /* max-width: 800px; */
+  justify-content: space-around;
   width: 100%;
 }
 .testimonial-flex__container-item {
-  width:279px;
+  width:300px;
 }
-.testimonial-flex__container-item:not(:last-child) {
-  padding-right: 40px;  
-}
+
 .testimonial-flex__container-item__img {
   width: 60px;
   height: 60px;
@@ -239,7 +237,7 @@ header {
   serif;
 }
 
-
+/* MILK ROW */
 .milk-row {
   display: flex;
   width: 100%;
