@@ -174,11 +174,13 @@ header {
   width: 100%;
   flex-direction: row;
   margin: 0 auto;
+
 }
 .last-main__column {
   position: relative;
   width: 100%;
   height: 100%;
+  margin-top: 0;
 }
 .overlay-text__block {
   text-align: center;
@@ -322,4 +324,21 @@ line-height: 1.2rem;
 .social i {
  color: hsl(168, 34%, 41%);
  padding: 0 1rem;
+}
+.attribution {
+  font-size: 16px;
+  color:hsl(0, 0%, 100%);
+  height: 100px;
+  font-family: "Barlow", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--Dark-moderate-cyan-footer);
+}
+.attribution a {
+  padding: 1rem 5px;
+  color: hsl(0, 0%, 25%);
+}
+.attribution a:hover {
+  color:hsl(198, 62%, 26%);
 }
