@@ -279,3 +279,47 @@ header {
   width: 25%;
   height: auto;
 }
+
+/* FOOTER */
+footer {
+background: hsl(168deg 50% 79%);
+}
+.footer-logo {
+  padding: 70px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-logo__title {
+padding-bottom: 1rem;
+color: hsl(167, 40%, 24%);
+font-family: "Fraunces", serif;
+font-size: 2rem;
+font-weight: 500;
+margin-bottom: .5rem;
+line-height: 1.2rem;
+}
+.footer-nav__navbar {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 3rem;
+}
+.footer-nav__navbar li {
+  list-style-type: none;
+}
+.footer-nav__navbar a {
+  font-size: 1.2rem;
+  font-family: "Barlow", sans-serif;
+  text-decoration: none;
+  padding: .5rem 1rem;
+  color: hsl(168, 34%, 41%);
+  font-weight: 600;
+}
+.social {
+  padding-top: 2rem;
+}
+.social i {
+ color: hsl(168, 34%, 41%);
+ padding: 0 1rem;
+}
